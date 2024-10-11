@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+* {
+  font-family: "IBM Plex Sans", sans-serif !important;
+}
+@layer utilities {
+  .hero-bg {
+    background-image: linear-gradient(#000000c0, #000000c0), url("hero-bg.jpg");
+    @apply bg-cover bg-center bg-no-repeat;
+  }
+}
