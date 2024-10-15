@@ -4,9 +4,9 @@
 * {
   font-family: "IBM Plex Sans", sans-serif !important;
 }
-@layer utilities {
-  .hero-bg {
-    background-image: linear-gradient(#000000c0, #000000c0), url("hero-bg.jpg");
-    @apply bg-cover bg-center bg-no-repeat;
-  }
+.hero-bg {
+  background-image: linear-gradient(#000000c0, #000000c0), url("hero-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }

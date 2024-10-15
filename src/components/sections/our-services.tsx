@@ -7,7 +7,7 @@ function OurServices() {
         <div className="flex flex-col md:flex-row gap-4 items-center justify-around max-w-[1440px] mx-auto">
           <img
             src="truck.png"
-            className="select-text -translate-x-28 w-[500px]"
+            className="select-text md:-translate-x-28 w-[500px]"
           />
           <div className="text-white text-center max-w-[400px] flex gap-4 flex-col">
             <p>
@@ -36,10 +36,10 @@ function OurServices() {
           />
         </div>
 
-        <div className="md:p-12 max-w-[600px] mx-auto">
+        <div className="md:p-12 max-w-[600px] w-full mx-auto">
           <div className="text-center">
-            <h3 className="text-3xl my-7 font-bold">
-              OUR PROGRAMS/INVESTMENT OPPORTUNITIES
+            <h3 className="text-2xl md:text-3xl my-7 font-bold">
+            OUR PROGRAMS/INVESTMENT OPPORTUNITIES
             </h3>
             <p className="my-4">
               Our programs and trainings are designed with your growth in mind,
@@ -57,7 +57,7 @@ function OurServices() {
           </div>
         </div>
 
-        <div className="bg-[#F4FAFD] flex-wrap flex justify-between items-center md:p-12">
+        <div className="md:bg-[#F4FAFD] w-full flex-wrap flex justify-between items-center md:p-12">
           <div className="flex flex-wrap gap-10">
             <CardType2
               title={"The Profitable Truck Driver Blueprint"}

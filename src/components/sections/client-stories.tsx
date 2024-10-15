@@ -30,8 +30,8 @@ const ClientStories = () => {
         />
       </div>
 
-      <div className="bg-[#1991D3] p-12 md:p-0 text-white">
-        <div className="flex flex-wrap justify-center md:justify-around items-center">
+      <div className="bg-[#1991D3] overflow-hidden p-12 text-white">
+        <div className="flex flex-wrap justify-around items-center">
           <div className="p-4 max-w-[400px]">
             <h3 className="text-3xl font-bold md:text-4xl">Create Your Own Success Story Today</h3>
 
@@ -45,8 +45,8 @@ const ClientStories = () => {
             </button>
           </div>
 
-          <div className="mx-auto">
-            <img src="/man.png" className="" alt="" />
+          <div className="">
+            <img src="/man.png" className="translate-y-12" alt="" />
           </div>
         </div>
       </div>
